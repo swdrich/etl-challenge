@@ -11,8 +11,11 @@ date DATE,
 sales FLOAT
 );
 
+SELECT * FROM stores;
+SELECT * FROM sales;
+
 -- join tables
-SELECT stores.id, ,stores.type, stores.size, sales.date, sales.sales
+SELECT stores.id, stores.type, stores.size, sales.date, sales.sales
 FROM stores
 JOIN sales
 ON stores.id = sales.id;
