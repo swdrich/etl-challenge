@@ -1,7 +1,6 @@
 # etl-challenge
 ETL: Retail Data Analysis
 Group 21: Sam Ziegler, Steven Gaetz, Stephanie Richards
-
 Dataset: https://www.kaggle.com/manjeetsingh/retaildataset?select=Features+data+set.csv
 
 
