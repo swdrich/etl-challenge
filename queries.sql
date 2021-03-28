@@ -1,3 +1,7 @@
+--drop table if exists
+--DROP TABLE IF EXISTS sales;
+--DROP TABLE IF EXISTS stores;
+
 -- create table for retail data to go into
 CREATE TABLE stores (
 id INT PRIMARY KEY,
@@ -6,9 +10,11 @@ size INT
 );
 
 CREATE TABLE sales (
-id INT PRIMARY KEY,
-date DATE,
-sales FLOAT
+	id INT,
+	date DATE,
+	sales MONEY,
+	CONSTRAINT "pk_sales" PRIMARY KEY (
+        "id","date" )
 );
 
 SELECT * FROM stores;
