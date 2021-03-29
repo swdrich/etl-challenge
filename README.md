@@ -14,7 +14,7 @@ Load: Create SQL database with two tables, one for sales and one for stores. Loa
 
 ##Insructions to populate the database
 
-1. Open pgAdmin. Create a new database called 'sales_db.' Open a query tool in 'sales_db' and navigate to the 'etl-chanllenge' repository.
+1. Open pgAdmin. Create a new database called 'sales_db.' Open a query tool in 'sales_db' and navigate to the 'etl-challenge' repository.
   Select the file 'queries.sql.' Run the code to create the 'stores' table and run the code to create the 'sales' table. 
   Run 'select * from stores' and 'select * from sales' to ensure that the tables were created.
   
