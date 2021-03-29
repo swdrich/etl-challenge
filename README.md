@@ -12,7 +12,7 @@ Transform: Combine sales figures for all departments in each store and sort by w
 
 Load: Create SQL database with two tables, one for sales and one for stores. Load pd dataframes to each table and use them to join and query.
 
-**Instructions to populate the database**
+**Instructions to populate the database:**
 
 1. Clone the 'etl-challenge' repository to your machine.
 
