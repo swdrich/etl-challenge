@@ -31,7 +31,7 @@ Load: Create SQL database with two tables, one for sales and one for stores. Loa
 1. Open a Jupyter Notebook in the 'etl-challenge' repository. Create a text file called 'config.py.' In this file, save your pgAdmin username and password
   as 'username' and 'password', respectively. 
 
-1. Open Sales_ETL_Copy.ipynb. Run all cells.
+1. Open 'Sales_ETL_Copy.ipynb.' Run all cells.
 
 1. In pgAdmin, run the code to join the tables.
 
