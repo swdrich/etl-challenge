@@ -1,6 +1,6 @@
 --drop table if exists
---DROP TABLE IF EXISTS sales;
---DROP TABLE IF EXISTS stores;
+DROP TABLE IF EXISTS sales;
+DROP TABLE IF EXISTS stores;
 
 -- create table for retail data to go into
 CREATE TABLE stores (
